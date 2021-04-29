@@ -38,7 +38,7 @@ public class PlayerTest {
         PlayerName playerName = player.getPlayerName();
 
         // Assert
-        Assertions.assertSame(player.getPlayerName(), PlayerName.PLAYER2);
+        Assertions.assertSame(player.getPlayerName(), PlayerName.PLAYER1);
     }
 
     @Test
